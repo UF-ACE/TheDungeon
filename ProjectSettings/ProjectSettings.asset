@@ -614,6 +614,7 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+<<<<<<< HEAD
     Collab: 1
     UNet: 1
   facebookSdkVersion: 7.9.4
@@ -621,6 +622,14 @@ PlayerSettings:
   cloudProjectId: 73c8d95d-d388-4ccd-95e0-759e272aead5
   projectName: TheDungeon
   organizationId: calefitz
+=======
+    UNet: 1
+  facebookSdkVersion: 7.9.4
+  apiCompatibilityLevel: 2
+  cloudProjectId: 
+  projectName: 
+  organizationId: 
+>>>>>>> 23741b2064623a8ab9fcad97d80141019991ba42
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
