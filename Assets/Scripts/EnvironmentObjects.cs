@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class EnvironmentObjects : Entity {
 
-    public EnvironmentObjects(string name, float health, float maxHealth) : base(name, health, maxHealth)
+    public EnvironmentObjects(string name, float health, float maxHealth) : base(name, health, maxHealth, 0)
     { }
 
 }
