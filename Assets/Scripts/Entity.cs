@@ -7,12 +7,14 @@ public abstract class Entity : MonoBehaviour {
     private readonly string entityName;
     private float health;
     private readonly float maxHealth;
+    private float moveSpeed;
 
-    public Entity(string name, float health, float maxHealth)
+    public Entity(string name, float health, float maxHealth, float moveSpeed)
     {
         this.entityName = name;
         this.health = health;
         this.maxHealth = maxHealth;
+        this.moveSpeed = moveSpeed;
     }
 
     public string GetName()

@@ -4,7 +4,7 @@ using UnityEditor;
 
 public class CreateTileset
 {
-    [MenuItem("Assets/Create/Tileset")]
+    [MenuItem("Assets/Create/TheDungeon/Tileset")]
     public static void CreateMyAsset()
     {
         Tileset asset = ScriptableObject.CreateInstance<Tileset>();
