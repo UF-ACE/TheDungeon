@@ -9,7 +9,7 @@ public class CreateTileset
     {
         Tileset asset = ScriptableObject.CreateInstance<Tileset>();
 
-        AssetDatabase.CreateAsset(asset, "Assets/Scripts/Levels/Tilesets/Tileset.asset");
+        AssetDatabase.CreateAsset(asset, "Assets/Tilesets/Tileset.asset");
         AssetDatabase.SaveAssets();
 
         EditorUtility.FocusProjectWindow();

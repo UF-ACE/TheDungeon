@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Tileset : ScriptableObject
 {
-    public string name;
+    public new string name;
     public GameObject[] roomPool;
     public GameObject[] enemyPool;
     public GameObject[] dynamicDecorationPool;
     public GameObject[] staticDecorationPool;
     public GameObject[] clutterPool;
+    public Objective[] objectivePool;
+    public Objective[] pointOfInterestPool;
+    public Vector2[]    shipVertex;
 }
