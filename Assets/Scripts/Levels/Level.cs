@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 
 // Level: Describes a level
-public class Level {
-    enum Mission { Capture, Assassinate, Steal }
-    enum LevelSize { Small, Medium, Large }
+public class Level : MonoBehaviour
+{
+    public enum Mission { Capture, Assassinate, Steal }
+    public enum LevelSize { Small, Medium, Large }
 
-    Tileset tileset;
-    Mission missionType;
-    LevelSize size;
+    public Tileset tileset;
+    public Mission missionType;
+    public LevelSize size;
 
     int enteranceCount;
 
